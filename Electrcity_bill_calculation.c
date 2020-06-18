@@ -1,9 +1,9 @@
 #include<stdio.h>
 main()
 {
-    float total_bill;
-
-    printf("Enter the number of units consumed for one month = ");
+    int units;
+   float total_bill;
+   printf("Enter the number of units consumed for one month = ");
     scanf("%d",&units);
    
 
