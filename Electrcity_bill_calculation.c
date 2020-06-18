@@ -19,7 +19,9 @@ main()
     {
         total_bill=3.25*30+4.40*70+6.25*(units-100);
     }
-    
-
+   else
+    {
+        total_bill=3.25*30+4.40*70+6.25*100+7.30*(units-200);
+    }
     printf("\nTotal monthly bill = %.2f",total_bill);
 }
