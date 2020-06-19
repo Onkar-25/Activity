@@ -17,7 +17,7 @@ main()
     {
         total_bill=3.25*units;
     }
-    else if(units>30 && units <=100)
+    else if(units>=31 && units <=100)
     {
         total_bill=3.25*30+4.40*(units-30);
     }
